@@ -18,6 +18,7 @@
    <!-- Google web fonts: Open Sans for the body | EB Garamond for the ND banner -->
    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i|Open+Sans:300,400,400i,600" rel="stylesheet">
 
+
    <!-- Font Awesome Web Icons -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -84,26 +85,24 @@
      <span class="icon-bar"></span>
      <span class="icon-bar"></span>
    </button>
-               <h4><a id="nd-brand-link" class="navbar-brand" href="index.html">Emergency Response Plan</a></h4>
+               <h4><a id="nd-brand-link" class="navbar-brand" href="index.html">Emergency Plan</a></h4>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav navbar-right">
-                  <li class="active danger"><a href="index.html">Emergency</a></li>
+                  <li><a href="index.html">Emergency</a></li>
                   <li><a href="response.html">Response Teams</a></li>
                   <li><a href="salvage.html">Salvage</a></li>
                   <li><a href="contacts.html">Contacts</a></li>
-                  <!-- <li><a href="about.html">About</a></li> -->
+                  <!-- <li class="active"><a href="about.html">About</a></li> -->
                </ul>
             </div>
             <!-- /.navbar-collapse -->
          </div>
-         <!-- .container -->
       </div>
       <!-- /.container-fluid -->
    </nav>
-
 
    <div class="container">
 
@@ -113,29 +112,95 @@
       </div>
 
 
+      <!-- breadcrumb navigation -->
+      <div class="row" id="breadcrumb-nav">
+         <div class="col-sm-12 hidden-xs">
+            <ol class="breadcrumb">
+               <li><a href="index.html">Emergency Plan</a></li>
+               <li class="active">About</li>
+            </ol>
+         </div>
+      </div>
+      <!-- .row -->
+
+      <div class="row">
+
+         <div class="col-sm-12">
+
+            <div class='panel-group' id='accordion4231188' role='tablist' aria-multiselectable='true'>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading6651625'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion4231188' href='#collapse6651625' aria-expanded='true' aria-controls='collapse1'>For More Information</a></h5></div>
+                  <div id='collapse6651625' class='panel-collapse collapse in' role='tabpanel' aria-labelledby='heading1'>
+                     <div class='panel-body'>
+                        <p>For more information about this guide, contact:</p>
+                        <p><strong>Liz Dube</strong><br>Emergency Response Coordinator<br> B005 Reyniers Building<br> Notre Dame, IN 46556</p>
+                        <p><a href="tel:5746314643" class="ui-link">(574) 631-4643</a></p>
+                        <p><a href="mailto:ldube@nd.edu" class="ui-link">ldube@nd.edu</a></p>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading6715337'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion4231188' href='#collapse6715337' aria-expanded='true' aria-controls='collapse2'>Print Copies</a></h5></div>
+                  <div id='collapse6715337' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading2'>
+                     <div class='panel-body'>
+
+                        <p>Each member of the Emergency Response Team has a printed copy of this plan. Printed copies are also located at the following locations:</p>
+                        <ul>
+                           <li>Hesburgh Library Monitors' Desk</li>
+                           <li>Hesburgh Library Administrative Offices</li>
+                           <li>All branch libraries</li>
+                           <li>Library Annex</li>
+                           <li>All crash carts</li>
+                        </ul>
+
+                        <p>A printed Emergency Response Plan is also filed with these university offices:</p>
+                        <ul>
+                           <li>NDPD/Security</li>
+                           <li>Risk Management</li>
+                           <li>Fire Department</li>
+                           <li>Conservation Lab</li>
+                        </ul>
+
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading7457900'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion4231188' href='#collapse7457900' aria-expanded='true' aria-controls='collapse3'>Updates</a></h5></div>
+                  <div id='collapse7457900' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading3'>
+                     <div class='panel-body'>
+                        <p>The Hesburgh Libraries Emergency Response Plan is updated annually in January.</p>
+                        <p><em>Last updated: January 15, 2018</em></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- panel group -->
+
+         </div>
+
+      </div>
+
    </div>
    <!-- .container -->
-
-   <!-- breadcrumb navigation -->
-   <div class="row">
-      <div class="col-sm-12 hidden-xs">
-         <ol class="breadcrumb">
-            <li><a href="index.html">Emergency Plan</a></li>
-            <li class="active">About</li>
-         </ol>
-      </div>
-   </div>
-   <!-- .row -->
 
    <!-- Footer -->
    <footer>
       <div class="container-fluid">
          <div class="container">
             <div class="row">
-               <div class="col-sm-9">
-                  <p><i class="fa fa-copyright"></i> <span id="this-year"></span> University of Notre Dame</p>
+               <div class="col-sm-5">
+                  <p id="print-this-page"><a href="about.html"><i class="fa fa-info-circle spacer-right" aria-hidden="true"></i>About This Plan</a> <span class="spacer-left spacer-right">|</span> <i class="fa fa-print spacer-right" aria-hidden="true"></i>Print Page</p>
                </div>
-               <div class="col-sm-3"><img src="img/hesburgh-library.svg" class="img img-responsive center-block" alt="Hesburgh Libraries Logo"></div>
+               <div class="col-sm-4">
+                  <p class="grey"><i class="fa fa-copyright"></i> <span id="this-year"></span> University of Notre Dame</p>
+               </div>
+               <div class="col-sm-3">
+                  <img src="img/hesburgh-library.svg" class="img img-responsive center-block" alt="Hesburgh Libraries Logo">
+               </div>
+
             </div>
          </div>
       </div>
