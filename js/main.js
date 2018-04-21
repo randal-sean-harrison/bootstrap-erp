@@ -17,4 +17,6 @@ $("#print-this-page").on("click", function(){
 
    // style the panels
 
+   window.print();
+
 });

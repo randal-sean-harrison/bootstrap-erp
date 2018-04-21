@@ -151,14 +151,28 @@ footer a:active {
    font-weight: 600 !important;
 }
 
+.nav li.active a {
+   color: #383d41 !important;
+   background-color: #e2e3e5 !important;
+   border-color: #d6d8db !important;
+}
+
+hr {
+   border-top: 1px solid lightgrey;
+}
+
 /* colors  ----------------------------------------------------------------- */
 
 .ndblue {
    color: #0C2340;
 }
 
-.grey {
-   color: grey;
+.lightgrey {
+   color: lightgrey;
+}
+
+.white {
+   color: white;
 }
 
 .push-down-1 {
