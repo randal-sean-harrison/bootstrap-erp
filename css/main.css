@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* Remix main styles */
+
+/* base font sizes for desktop and mobile */
+
+html {
+   font-size: 16px;
+}
+
+/* main typography for desktop -------------------------------------------------------- */
+
+body {
+   font-family: 'Open Sans', "Segoe UI", "Helvetica Neue", sans-serif;
+   background-color: #FAFAFA;
+   font-size: 16px;
+   /* background-color: #f5f8fa; Bootstrap theme blue not used */
+}
+
+h1 {
+   font-size: 2.5rem !important;
+   font-weight: 300 !important;
+}
+
+h2 {
+   font-size: 2rem !important;
+   font-weight: 400 !important;
+}
+
+h3 {
+   font-size: 1.75rem !important;
+   font-weight: 400 !important;
+}
+
+h4 {
+   font-size: 1.5rem !important;
+   font-weight: 400 !important;
+}
+
+h5 {
+   font-size: 1.25rem !important;
+   font-weight: 600 !important;
+}
+
+h6 {
+   font-size: 1rem !important;
+   font-weight: 600 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin-bottom: .5rem;
+   margin-top: 0;
+   /* color: #0C2340 !important; */
+   color: #002a5d !important;
+}
+
+p, ul, li, th, tr, td, dd, dl, a, input, textarea, button, select, option, pre {
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 1.5;
+}
+
+p {
+   margin: 0 0 1rem 0;
+}
+
+.lead {
+   font-weight: 300 !important;
+}
+
+.spacer-right {
+   margin-right: .5rem;
+}
+
+.spacer-left {
+   margin-left: .5rem;
+}
+
+/* page masthead links */
+#nd-header {
+   background-color: #002a5d !important;
+   /* background-position: 0 0; */
+   /* background-repeat: repeat-x; */
+   min-height: 50px;
+}
+
+#nd-link, #provost-link {
+   font-family: 'EB Garamond', serif;
+}
+
+#nd-link a, #provost-link a {
+   letter-spacing: .3rem;
+   color: white;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+#nd-link a:hover, #provost-link a:hover,
+#about-project:hover, #about-resources:hover {
+   color: lightgrey;
+}
+
+#nd-link, #provost-link {
+   padding-top: .75rem !important;
+}
+
+/* colors  ----------------------------------------------------------------- */
+
+.ndblue {
+   color: #0C2340;
+}
