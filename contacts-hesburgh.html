@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <!-- Metadata for the Webpage -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Response Plan</title>
+
+   <!-- Bootstrap CSS files-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+   <!-- jQuery UI CSS (optional) -->
+   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+   <!-- Google web fonts: Open Sans for the body | EB Garamond for the ND banner -->
+   <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i|Open+Sans:300,400,400i,600" rel="stylesheet">
+
+
+   <!-- Font Awesome Web Icons -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- Favicon -->
+   <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+   <link rel="manifest" href="img/favicons/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+
+   <!-- CSS inlcudes -->
+   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+   <!-- Local stylesheet -->
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+
+   <!-- Brand Navbar -->
+   <div class="container-fluid" id="nd-header">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-6 hidden-xs">
+               <h5 class="nd-link" aria-label="University of Notre Dame"><a href="http://nd.edu">UNIVERSITY <em>of</em> NOTRE DAME</a></h5>
+            </div>
+            <div class="hidden-sm hidden-md hidden-lg">
+               <h6 class="nd-link" aria-label="University of Notre Dame"><a href="http://nd.edu">UNIVERSITY <em>of</em> NOTRE DAME</a></h6>
+            </div>
+            <!-- .col-sm-6 -->
+            <div class="col-sm-6 hidden-xs">
+               <h5 id="provost-link" class="text-right" aria-label="Office of the Provost"><a href="http://provost.nd.edu">OFFICE <em>of the</em> PROVOST</a></h5>
+            </div>
+            <!-- .col-sm-6 -->
+         </div>
+         <!-- .row -->
+      </div>
+      <!-- .container -->
+   </div>
+   <!-- #nd-header -->
+
+   <!-- Navigation -->
+   <nav class="navbar navbar-default">
+      <div class="container-fluid">
+         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+     <span class="sr-only">Toggle navigation</span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+   </button>
+               <h3><a id="nd-brand-link" class="navbar-brand" href="index.html">Response Plan</a></h3>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">Emergency!</a></li>
+                  <li><a href="response.html">Response Teams</a></li>
+                  <li><a href="salvage.html">Salvage</a></li>
+
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="contacts-hesburgh.html">Hesburgh Libraries</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="contacts-partners.html">Campus Partners</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="contacts-vendors.html">Vendors</a></li>
+                     </ul>
+                  </li>
+
+                  <!-- <li class="active"><a href="about.html">About</a></li> -->
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+      </div>
+      <!-- /.container-fluid -->
+   </nav>
+
+   <div class="container">
+
+      <!-- page header << this is hidden until page printed -->
+      <div id="print-headings" class="hidden">
+         <h3 id="print-section-header">Useful Contacts, Hesburgh Libraries</h3>
+      </div>
+
+
+      <!-- breadcrumb navigation -->
+      <div class="row" id="breadcrumb-nav">
+         <div class="col-sm-12 hidden-xs">
+            <ol class="breadcrumb">
+               <li><a href="index.html">Response Plan</a></li>
+               <li class="active">About This Plan</li>
+            </ol>
+         </div>
+      </div>
+      <!-- .row -->
+
+      <div class="row">
+
+         <div class="col-sm-12">
+
+            <h4 class="push-down-1 section-title">Hesburgh Library</h4>
+
+            <div class='panel-group push-down-1' id='accordion911353' role='tablist' aria-multiselectable='true'>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading7830775'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion911353' href='#collapse7830775' aria-expanded='true' aria-controls='collapse7830775'>Administration</a></h5></div>
+                  <div id='collapse7830775' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading7830775'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Diane Walker</strong><br /> University Librarian</td>
+                                 <td><a href="tel:5746317790" target="_blank">(574) 631-7790</a></td>
+                                 <td><a href="tel:5748552598" target="_blank">(574) 855-2598</a></td>
+                                 <td><a href="tel:4348252658" target="_blank">(434) 825-2658</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Louis Jordan</strong><br /> AUL, Academic Services and Collection</td>
+                                 <td><a href="tel:5746313778" target="_blank">(574) 631-3778</a></td>
+                                 <td><a href="tel:5742775847" target="_blank">(574) 277-5847</a></td>
+                                 <td>&nbsp;</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>John Wang</strong><br /> AUL, Digital Access, Resources, IT</td>
+                                 <td><a href="tel:5746316495" target="_blank">(574) 631-6495</a></td>
+                                 <td><a href="tel:5748079366" target="_blank">(574) 807-9366</a></td>
+                                 <td><a href="tel:5743391383" target="_blank">(574) 339-1383</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading5686514'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion911353' href='#collapse5686514' aria-expanded='true' aria-controls='collapse5686514'>Archives</a></h5></div>
+                  <div id='collapse5686514' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading5686514'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Angela Fritz</strong><br /> Head, University Archives</td>
+                                 <td><a href="tel:5746319200" target="_blank">(574) 631-9200</a></td>
+                                 <td>HOME</td>
+                                 <td>MOBILE</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Peter Lysy</strong><br /> Senior Archivist for University Records</td>
+                                 <td><a href="tel:5746314030" target="_blank">(574) 631-4030</a></td>
+                                 <td><a href="tel:2696957551" target="_blank">(269) 695-7551</a></td>
+                                 <td>&nbsp;</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Charles Lamb</strong><br /> Senior Archivist for Photographs and A/V</td>
+                                 <td><a href="tel:5746319338" target="_blank">(574) 631-9338</a></td>
+                                 <td><a href="tel:5742871843" target="_blank">(574) 287-1843</a></td>
+                                 <td><a href="tel:5742860017" target="_blank">(574) 286-0017</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Matt Wilkin</strong><br /> Assistant Archivist for University Records</td>
+                                 <td><a href="tel:5746312503" target="_blank">(574) 631-2503</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5743231899" target="_blank">(574) 323-1899</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading8217547'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion911353' href='#collapse8217547' aria-expanded='true' aria-controls='collapse8217547'>Computing Hardware</a></h5></div>
+                  <div id='collapse8217547' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading8217547'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Rob Kolic</strong><br /> Manager, Library IT Support</td>
+                                 <td><a href="tel:5746310932" target="_blank">(574) 631-0932</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5743617041" target="_blank">(574) 361-7041</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Chris Bailey</strong><br /> IT Support Coordinator</td>
+                                 <td><a href="tel:5746318738" target="_blank">(574) 631-8738</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:2693696695" target="_blank">(269) 369-6695</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Beata Frelas</strong><br /> IT Systems Analyst</td>
+                                 <td><a href="tel:5746317176" target="_blank">(574) 631-7176</a></td>
+                                 <td><a href="tel:5742730827" target="_blank">(574) 273-0827-</a></td>
+                                 <td><a href="tel:5746077171" target="_blank">(574) 607-7171-</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Mike Mueller</strong><br /> IT Systems Analyst</td>
+                                 <td><a href="tel:5746318291" target="_blank">(574) 631-8291</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5862607972" target="_blank">(586) 260-7972</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Kim Shreve</strong><br /> IT Support Coordinator</td>
+                                 <td><a href="tel:5746316640" target="_blank">(574) 631-6640</a></td>
+                                 <td><a href="tel:5742571512" target="_blank">(574) 257-1512</a></td>
+                                 <td><a href="tel:5743104754" target="_blank">(574) 310-4754</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading5669262'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion911353' href='#collapse5669262' aria-expanded='true' aria-controls='collapse5669262'>Facilities</a></h5></div>
+                  <div id='collapse5669262' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading5669262'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Ross Fergerson</strong><br /> ​Hesburgh Facilities Manager</td>
+                                 <td><a href="tel:5746316361" target="_blank">(574) 631-6361</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5748506208" target="_blank">(574) 850-6208</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Michele Kirk</strong><br /> Hesburgh Safety and Security</td>
+                                 <td><a href="tel:5746315685" target="_blank">(574) 631-5685</a></td>
+                                 <td><a href="tel:2694712491" target="_blank">(269) 471-2491</a></td>
+                                 <td><a href="tel:2693692416" target="_blank">(269) 369-2416</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Pamela James</strong><br /> Renovation Project Manager</td>
+                                 <td><a href="tel:5746319265" target="_blank">(574) 631-9265</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5748760283" target="_blank">(574) 876-0283</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading3028652'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion911353' href='#collapse3028652' aria-expanded='true' aria-controls='collapse3028652'>Preservation</a></h5></div>
+                  <div id='collapse3028652' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading3028652'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Liz Dube</strong><br /> Head of Preservation</td>
+                                 <td><a href="tel:5746314643" target="_blank">(574) 631-4643</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5743230732" target="_blank">(574) 323-0732</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Jen Hunt Johnson</strong><br /> Special Collections Conservator</td>
+                                 <td><a href="tel:" target="_blank">Work</a></td>
+                                 <td><a href="tel:" target="_blank">Home</a></td>
+                                 <td><a href="tel:" target="_blank">Mobile</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Diane Sikorski</strong><br /> SC Preventative Conservation Tech</td>
+                                 <td><a href="tel:5746314077" target="_blank">(574) 631-4077</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5743601756" target="_blank">(574) 360-1756</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Tosha McComb</strong><br /> Gen. Collections Conservation Tech</td>
+                                 <td><a href="tel:5746317734" target="_blank">(574) 631-7734</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5743391383" target="_blank">(574) 339-1383</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Debbie Huyvaert</strong><br /> Sr. Preservation Specialist</td>
+                                 <td><a href="tel:5746316360" target="_blank">(574) 631-6360</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5742765723" target="_blank">(574) 276-5723</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Kathy Colbert</strong><br /> Preservation Assistant</td>
+                                 <td><a href="tel:5746316169" target="_blank">(574) 631-6169</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5749049340" target="_blank">(574) 904-9340</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading4074113'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion911353' href='#collapse4074113' aria-expanded='true' aria-controls='collapse4074113'>Specialized Collection Services</a></h5></div>
+                  <div id='collapse4074113' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading4074113'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Tracy Bergstrom</strong><br /> Program Director</td>
+                                 <td><a href="tel:5746311763" target="_blank">(574) 631-1763</a></td>
+                                 <td><a href="tel:5742998088" target="_blank">(574) 299-8088</a></td>
+                                 <td><a href="tel:2038092436" target="_blank">(203) 809-2436</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Natasha Lyandres</strong><br /> Head, Special Collections</td>
+                                 <td><a href="tel:5746313009" target="_blank">(574) 631-3009</a></td>
+                                 <td><a href="tel:5742348222" target="_blank">(574) 234-8222</a></td>
+                                 <td><a href="tel:5743159219" target="_blank">(574) 315-9219</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Angela Fritz</strong><br /> Head, Archives</td>
+                                 <td><a href="tel:5746319200" target="_blank">(574) 631-9200</a></td>
+                                 <td>HOME</td>
+                                 <td>MOBILE</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Dave Gura</strong><br /> Curator
+                                 </td>
+                                 <td><a href="tel:5746316489" target="_blank">(574) 631-6489</a></td>
+                                 <td><a href="tel:5742460229" target="_blank">(574) 246-0229</a></td>
+                                 <td><a href="tel:6143027001" target="_blank">(614) 302-7001</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>George Rugg</strong><br /> Curator
+                                 </td>
+                                 <td><a href="tel:5746316506" target="_blank">(574) 631-6506</a></td>
+                                 <td><a href="tel:5742371972" target="_blank">(574) 237-1972</a></td>
+                                 <td>&nbsp;</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Julie Tanaka</strong><br /> Curator
+                                 </td>
+                                 <td><a href="tel:5746317845" target="_blank">(574) 631-7845</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:4087618595" target="_blank">(408) 761-8595</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading1143091'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion911353' href='#collapse1143091' aria-expanded='true' aria-controls='collapse1143091'>Subject Services & Collection Services</a></h5></div>
+                  <div id='collapse1143091' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading1143091'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Jan Maxwell</strong><br /> Program Director</td>
+                                 <td>&nbsp;</td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:7405413238" target="_blank">(740) 541-3238</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Willie Baer</strong><br /> Science &amp; Business</td>
+                                 <td><a href="tel:5746315070" target="_blank">(574) 631-5070</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:7708624902" target="_blank">(770) 862-4902</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Aedin Clements</strong><br /> Area Studies &amp; Global Affairs</td>
+                                 <td><a href="tel:5746310497" target="_blank">(574) 631-0497</a></td>
+                                 <td><a href="tel:2695525570" target="_blank">(269) 552-5570</a></td>
+                                 <td><a href="tel:2693526856" target="_blank">(269) 352-6856</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Jean McManus</strong><br /> Catholic Studies</td>
+                                 <td><a href="tel:5746311703" target="_blank">(574) 631-1703</a></td>
+                                 <td><a href="tel:5742321153" target="_blank">(574) 232-1153</a></td>
+                                 <td><a href="tel:5743396774" target="_blank">(574) 339-6774</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- panel group -->
+
+            <h4 class="push-down-3 section-title">Branch Libraries</h4>
+
+            <div class='panel-group push-down-1' id='accordion3288094' role='tablist' aria-multiselectable='true'>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading2955409'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion3288094' href='#collapse2955409' aria-expanded='true' aria-controls='collapse2955409'>Annex</a></h5></div>
+                  <div id='collapse2955409' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading2955409'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Tracey Morton</strong><br /> Manager, User Services</td>
+                                 <td><a href="tel:5746316824" target="_blank">(574) 631-6824</a></td>
+                                 <td><a href="tel:5742615831" target="_blank">(574) 261-5831</a></td>
+                                 <td><a href="tel:5742615831" target="_blank">(574) 261-5831</a></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>Sean Walton</strong><br /> Library Annex Coordinator</td>
+                                 <td><a href="tel:5746318923" target="_blank">(574) 631-8923</a></td>
+                                 <td><a href="tel:5743835185" target="_blank">(574) 383-5185</a></td>
+                                 <td><a href="tel:7652127912" target="_blank">(765) 212-7912</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading1519627'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion3288094' href='#collapse1519627' aria-expanded='true' aria-controls='collapse1519627'>Architecture</a></h5></div>
+                  <div id='collapse1519627' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading1519627'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Jennifer Parker</strong><br /> Architecture Librarian</td>
+                                 <td><a href="tel:5746319401" target="_blank">(574) 631-9401</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5743039105" target="_blank">(574) 303-9105</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading8431464'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion3288094' href='#collapse8431464' aria-expanded='true' aria-controls='collapse8431464'>Chemistry-Physics</a></h5></div>
+                  <div id='collapse8431464' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading8431464'>
+                     <div class='panel-body'>
+                        <table class="table table-striped" style="background-color: rgb(255, 255, 255); width: 766px;">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Thurston Miller</strong><br /> Chemistry and Physics Librarian</td>
+                                 <td><a href="tel:5746314549" target="_blank">(574) 631-4549</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5742438332" target="_blank">(574) 243-8332</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading7555783'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion3288094' href='#collapse7555783' aria-expanded='true' aria-controls='collapse7555783'>Engineering</a></h5></div>
+                  <div id='collapse7555783' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading7555783'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Willie Baer<br />
+                        			​</strong>Research Services Librarian, Engineering</td>
+                                 <td><a href="tel:5746315070" target="_blank">(574) 631-5070</a></td>
+                                 <td><a href="tel:5746315070" target="_blank">(574) 631-5070</a></td>
+                                 <td><a href="tel:6092733082" target="_blank">(609) 273-3082</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading9725252'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion3288094' href='#collapse9725252' aria-expanded='true' aria-controls='collapse9725252'>Kellogg Library Information Center</a></h5></div>
+                  <div id='collapse9725252' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading9725252'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Doug Archer</strong><br /> Peace Studies, Global Affairs &amp; Pol. Sci. Librarian</td>
+                                 <td><a href="tel:5746316656" target="_blank">(574) 631-6656</a></td>
+                                 <td><a href="tel:5742719573" target="_blank">(574) 271-9573</a></td>
+                                 <td><a href="tel:5743021749" target="_blank">(574) 302-1749</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading199771'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion3288094' href='#collapse199771' aria-expanded='true' aria-controls='collapse199771'>Mahaffey Business</a></h5></div>
+                  <div id='collapse199771' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading199771'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Steve Hayes</strong><br /> Business Librarian</td>
+                                 <td><a href="tel:5746315268" target="_blank">(574) 631-5268</a></td>
+                                 <td><a href="tel:5742326137" target="_blank">(574) 232-6137</a></td>
+                                 <td><a href="tel:5743152793" target="_blank">(574) 315-2793</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading9503740'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion3288094' href='#collapse9503740' aria-expanded='true' aria-controls='collapse9503740'>O'Meara Mathematics</a></h5></div>
+                  <div id='collapse9503740' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading9503740'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Parker&nbsp;Ladwig</strong><br /> Math, Stats, Bio. and Med. Librarian</td>
+                                 <td><a href="tel:5746313617" target="_blank">(574) 631-3617</a></td>
+                                 <td><a href="tel:5742470105" target="_blank">(574) 247-0105</a></td>
+                                 <td><a href="tel:5742173672" target="_blank">(574) 217-3672</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class='panel panel-default'>
+                  <div class='panel-heading' role='tab' id='heading473660'>
+                     <h5 class='panel-title'><a role='button' data-toggle='collapse' data-parent='#accordion3288094' href='#collapse473660' aria-expanded='true' aria-controls='collapse473660'>Radiation Lab</a></h5></div>
+                  <div id='collapse473660' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading473660'>
+                     <div class='panel-body'>
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th style="width: 40%;">Contact</th>
+                                 <th style="width: 20%;">Work</th>
+                                 <th style="width: 20%;">Home</th>
+                                 <th style="width: 20%;">Mobile</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Thurston Miller</strong><br /> Chemistry &amp; Physics Librarian</td>
+                                 <td><a href="tel:5746314549" target="_blank">(574) 631-4549</a></td>
+                                 <td>&nbsp;</td>
+                                 <td><a href="tel:5742438332" target="_blank">(574) 243-8332</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- panel group -->
+
+         </div>
+
+      </div>
+
+   </div>
+   <!-- .container -->
+
+   <!-- Footer -->
+   <footer>
+      <div class="container-fluid">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-5 col-xs-12">
+                  <p><a href="about.html"><i class="fa fa-info-circle spacer-right" aria-hidden="true"></i>About This Plan</a> <span class="spacer-left spacer-right">|</span> <span id="print-this-page"><i class="fa fa-print spacer-right" aria-hidden="true"></i>Print Page</span></p>
+               </div>
+               <div class="col-sm-4 col-xs-12">
+                  <p class="lightgrey"><i class="fa fa-copyright"></i> <span id="this-year"></span> University of Notre Dame</p>
+               </div>
+               <div class="col-sm-3 hidden-xs">
+                  <img src="img/hesburgh-library.svg" class="img img-responsive center-block" alt="Hesburgh Libraries Logo">
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </footer>
+
+
+   <!-- jQuery Javascript Library (required by Bootstrap) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <!-- jQuery UI Library (optional) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+   <!-- Bootstrap Library -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+   <!-- Local scripts file -->
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -76,20 +76,12 @@ footer p {
    color: lightgrey;
 }
 
-a,
-a:link,
-a:visited,
-a:hover,
-a:active {
+a, a:link, a:visited, a:hover, a:active {
    color: #2A5DB0;
    font-weight: 600;
 }
 
-footer a,
-footer a:link,
-footer a:visited,
-footer a:hover,
-footer a:active {
+footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
    color: white;
 }
 
@@ -114,7 +106,12 @@ footer a:active {
    font-size: inherit;
 }
 
+.panel-title a:hover {
+   text-decoration: none !important;
+}
+
 /* page masthead links */
+
 #nd-header {
    background-color: #002a5d !important;
    /* background-position: 0 0; */
@@ -133,8 +130,7 @@ footer a:active {
    text-decoration: none;
 }
 
-.nd-link a:hover, #provost-link a:hover,
-#about-project:hover, #about-resources:hover {
+.nd-link a:hover, #provost-link a:hover, #about-project:hover, #about-resources:hover {
    color: lightgrey;
 }
 
@@ -175,41 +171,70 @@ hr {
    color: white;
 }
 
+/* vertical spacing classes */
 .push-down-1 {
    margin-top: 1rem;
 }
 
+.push-down-2 {
+   margin-top: 2rem;
+}
+
+.push-down-3 {
+   margin-top: 3rem;
+}
+
+/* set a cursor on the print this page link */
 #print-this-page {
    cursor: pointer !important;
-   z-index: 1000;
 }
 
 /* Print style sheet */
 
 @media print {
 
-/* resets the coloron the main container elements */
-body, html {
-   background: none;
-   background-color;: none;
-}
+   @page {
+      margin: .5in;
+   }
+   /* resets the coloron the main container elements */
+   body, html {
+      background: none;
+      background-color;
+      : none;
+   }
+   /* hides headers, navs and the footer */
+   header, nav, footer {
+      display: none !important;
+   }
+   /* hides the brandbar */
+   #nd-header {
+      display: none;
+   }
+   /* sets no borders on all panels --panels are opened with Javascript */
+   .panel {
+      border: none !important;
+   }
+   /* turns off the color on the panel headers */
+   .panel-heading {
+      background: none !important;
+   }
+   /* set images to full page width */
+   img {
+      max-width: 100%;
+   }
+   /* break links to next line */
+   p a {
+      word-wrap: break-word;
+   }
+   /* remove the link urls after the links */
+   a[href]:after {
+      content: none !important;
+   }
 
-/* hides headers, navs and the footer */
-header, nav, footer {
-   display: none !important;
-}
-
-/* hides the brandbar */
-#nd-header{
-   display: none;
-}
-
-/* sets no borders on all panels --panels are opened with Javascript */
-.panel {
-   border: none !important;
-}
-
-/* turns off the color on the panel headers */
-.panel-heading {
-   background: none !important;
+   .section-title {
+      text-transform: lowercase;
+      font-variant: small-caps;
+      border-bottom: 1px dotted #002a5d;
+      font-size: 2rem !important;
+   }
 }
