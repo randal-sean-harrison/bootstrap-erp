@@ -20,3 +20,7 @@ $("#print-this-page").on("click", function(){
    window.print();
 
 });
+
+
+// Initialize datatables
+$('.dataTable').DataTable();

@@ -9,6 +9,7 @@
 
 html {
    font-size: 16px;
+   min-height: 100%;
 }
 
 /* main typography for desktop -------------------------------------------------------- */
@@ -17,7 +18,6 @@ body {
    font-family: 'Open Sans', "Segoe UI", "Helvetica Neue", sans-serif;
    background-color: #FAFAFA;
    font-size: 16px;
-   /* background-color: #f5f8fa; Bootstrap theme blue not used */
 }
 
 h1 {
@@ -67,18 +67,25 @@ p {
    margin: 0 0 1rem 0;
 }
 
+.navbar-default {
+   background-color: aliceblue;
+}
+
+/* links */
+a, a:link, a:visited, a:hover, a:active {
+   color: #2A5DB0;
+   font-weight: 600;
+}
+
+/* footer  */
 footer {
    background: #0C2340;
    padding: 1.5rem 1rem;
+   margin-top: 1rem;
 }
 
 footer p {
    color: lightgrey;
-}
-
-a, a:link, a:visited, a:hover, a:active {
-   color: #2A5DB0;
-   font-weight: 600;
 }
 
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
@@ -106,8 +113,22 @@ footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
    font-size: inherit;
 }
 
-.panel-title a:hover {
+.panel-title a:hover,
+.panel-title a:active {
    text-decoration: none !important;
+}
+
+/* .navbar-nav li {
+   border-bottom: 1px solid lightgrey;
+} */
+
+/* Adds border bottom to the collapsible menu for small devices */
+/* .navbar-nav li:last-child {
+   border-bottom: none;
+} */
+
+.navbar-nav .open .dropdown-menu > li > a {
+   padding-left: 35px;
 }
 
 /* page masthead links */
@@ -143,18 +164,31 @@ footer a, footer a:link, footer a:visited, footer a:hover, footer a:active {
    font-size: inherit;
 }
 
-.navbar li.active a {
-   font-weight: 600 !important;
-}
-
-.nav li.active a {
-   color: #383d41 !important;
-   background-color: #e2e3e5 !important;
-   border-color: #d6d8db !important;
-}
-
 hr {
    border-top: 1px solid lightgrey;
+}
+
+table {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+/* Set table font smaller for smaller mobile devices */
+@media screen and (max-width: 768px) {
+   table td,
+   table th,
+   table td a  {
+      font-size: .9rem;
+   }
 }
 
 /* colors  ----------------------------------------------------------------- */
